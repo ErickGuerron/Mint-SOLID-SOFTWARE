@@ -1,5 +1,6 @@
 ﻿using CleanTeeth.Domain.Entities;
 using CleanTeeth.Domain.ValueObjects;
+using SOLIDPrinciples.Application.Interfaces;
 using SOLIDPrinciples.Application.Services;
 using SOLIDPrinciples.Infrastructure.Notifications.Emails;
 using SOLIDPrinciples.Infrastructure.Notifications.Sms;
@@ -47,7 +48,10 @@ internal class Program
         );
 
         // Crear el repositorio de citas y el servicio de notificaciones
-        var repository = new AppointmentRepository();       
+        //var repository = new AppointmentRepository();
+        //IAppointmentRepository repository = new FileAppointmentRepository();
+        IAppointmentRepository repository = new DataBaseAppointmentRepository();
+
         SendGridEmailNotificationService emailService = 
             new SendGridEmailNotificationService();
 

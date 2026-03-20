@@ -11,20 +11,32 @@ public class AppointmentService
 {
     private List<Appointment> _appointments = new List<Appointment>();
 
-    private readonly AppointmentRepository _repository;    
+    //private readonly AppointmentRepository _repository; //MODIFACADO   
+    private readonly IAppointmentRepository _repository; //NUEVO   
     private readonly IEmailService _emailService;
     private readonly ISmsService _msService;    
 
+    //MODIFICADO
+   // public AppointmentService(
+   //    AppointmentRepository repository,
+   //    IEmailService emailService, ISmsService msService
+   //)
+   // {
+   //     _repository = repository;
+   //     _emailService = emailService;
+   //     _msService = msService;
+   // }
+
     public AppointmentService(
-       AppointmentRepository repository,
-       IEmailService emailService, ISmsService msService
-   )
+     IAppointmentRepository repository,
+     IEmailService emailService, ISmsService msService
+ )
     {
         _repository = repository;
         _emailService = emailService;
         _msService = msService;
     }
-    
+
     public void Schedule(Appointment appointment, Email patientEmail, Patient patient)
     {
         Console.WriteLine("Programar cita...");

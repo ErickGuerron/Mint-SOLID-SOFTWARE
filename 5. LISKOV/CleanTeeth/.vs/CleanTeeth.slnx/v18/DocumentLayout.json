@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\notifications\\adapters\\messagingnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\notifications\\adapters\\messagingnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\notifications\\adapters\\smsnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\notifications\\adapters\\smsnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\notifications\\adapters\\emailinotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\notifications\\adapters\\emailinotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\application\\interfaces\\inotifactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\application\\interfaces\\inotifactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\notifications\\sms\\ismsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\notifications\\sms\\ismsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\notifications\\messaging\\imessagingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\notifications\\messaging\\imessagingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\notifications\\emails\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\notifications\\emails\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\notifications\\messaging\\whatsappmessagingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\notifications\\messaging\\whatsappmessagingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\persistence\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\persistence\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\persistence\\databaseappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\persistence\\databaseappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\notifications\\emails\\sendgridemailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\notifications\\emails\\sendgridemailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\infrastructure\\persistence\\fileappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\infrastructure\\persistence\\fileappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|c:\\users\\erick\\documents\\quinto semestre\\patrones de software\\practicas\\desing\\solid-software\\5. liskov\\cleanteeth\\solidprinciples\\application\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939CA3AF-EBFA-4BD6-9225-F19A77FEED32}|SOLIDPrinciples\\SOLIDPrinciples.csproj|solutionrelative:solidprinciples\\application\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessagingNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\MessagingNotificationService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\MessagingNotificationService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\MessagingNotificationService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\MessagingNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:55:33.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailINotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\EmailINotificationService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\EmailINotificationService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\EmailINotificationService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\EmailINotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:32:28.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISmsService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Sms\\ISmsService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Notifications\\Sms\\ISmsService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Sms\\ISmsService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Notifications\\Sms\\ISmsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:16:47.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Emails\\IEmailService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Notifications\\Emails\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Emails\\IEmailService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Notifications\\Emails\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:16:10.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INotifactionService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Application\\Interfaces\\INotifactionService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Application\\Interfaces\\INotifactionService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Application\\Interfaces\\INotifactionService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Application\\Interfaces\\INotifactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:09:19.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WhatsAppMessagingService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Messaging\\WhatsAppMessagingService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Notifications\\Messaging\\WhatsAppMessagingService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Messaging\\WhatsAppMessagingService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Notifications\\Messaging\\WhatsAppMessagingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:59:13.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Program.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Program.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Program.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:57:13.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmsNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\SmsNotificationService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\SmsNotificationService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\SmsNotificationService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Notifications\\Adapters\\SmsNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:49:31.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMessagingService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Messaging\\IMessagingService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Notifications\\Messaging\\IMessagingService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Messaging\\IMessagingService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Notifications\\Messaging\\IMessagingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:56:22.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Application\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Application\\Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Application\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Application\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:47:13.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataBaseAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Persistence\\DataBaseAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Persistence\\DataBaseAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Persistence\\DataBaseAppointmentRepository.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Persistence\\DataBaseAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:59:54.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FileAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Persistence\\FileAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Persistence\\FileAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Persistence\\FileAppointmentRepository.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Persistence\\FileAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:51:42.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Persistence\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Persistence\\AppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Persistence\\AppointmentRepository.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Persistence\\AppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:48:58.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SendGridEmailNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Emails\\SendGridEmailNotificationService.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Infrastructure\\Notifications\\Emails\\SendGridEmailNotificationService.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Infrastructure\\Notifications\\Emails\\SendGridEmailNotificationService.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Infrastructure\\Notifications\\Emails\\SendGridEmailNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T15:00:15.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Application\\Interfaces\\IAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "SOLIDPrinciples\\Application\\Interfaces\\IAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\erick\\Documents\\Quinto Semestre\\Patrones de Software\\practicas\\Desing\\SOLID-SOFTWARE\\5. LISKOV\\CleanTeeth\\SOLIDPrinciples\\Application\\Interfaces\\IAppointmentRepository.cs",
+              "RelativeToolTip": "SOLIDPrinciples\\Application\\Interfaces\\IAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:48:42.751Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

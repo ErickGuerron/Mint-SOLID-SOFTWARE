@@ -85,31 +85,37 @@ public class AppointmentService
     {
         Console.WriteLine("Programar cita...");
 
-        // VALIDACIÓN REGLA DE NEGOCIO: Verificar que el dentista no tenga otra cita en el mismo horario
-        if (
-            _appointments.Any(a =>
-                a.DentistId == appointment.DentistId
-                && a.TimeInterval.Start == appointment.TimeInterval.Start
-            )
-        )
+        if (!IsDentistAvailable(appointment))
         {
             Console.WriteLine("El dentista está ocupadO en ese momento.");
             return;
         }
 
-        // AGREGAR LA CITA AL LISTADO DE CITAS
+        SaveAppointment(appointment);
+        NotifyPerson(person);
+
+        Console.WriteLine("Cita programada con éxito.");
+    }
+
+    private bool IsDentistAvailable(Appointment appointment)
+    {
+        return !_appointments.Any(a =>
+            a.DentistId == appointment.DentistId
+            && a.TimeInterval.Start == appointment.TimeInterval.Start
+        );
+    }
+
+    private void SaveAppointment(Appointment appointment)
+    {
         _appointments.Add(appointment);
-
-        // GUARDAR EN ARCHIVO
         _repository.Save(appointment);
+    }
 
-        //Enviar LA/LAS Notificaciones 
+    private void NotifyPerson<TId>(Person<TId> person) where TId : notnull
+    {
         foreach (var notification in _notifications)
         {
             notification.Send(person, "Cita programada");
         }
-
-        // VISUALIZAR MENSAJE DE CONFIRMACIÓN
-        Console.WriteLine("Cita programada con éxito.");
     }
 }

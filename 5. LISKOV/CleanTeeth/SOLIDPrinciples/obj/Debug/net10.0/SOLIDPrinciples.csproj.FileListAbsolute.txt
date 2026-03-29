@@ -112,3 +112,5 @@ E:/Patrones de Software/SOLID/SOLID-SOFTWARE/3.DIP/CleanTeeth/SOLIDPrinciples/ob
 /home/erickguerron/Documentos/Mint-Proyects/Mint-SOLID-SOFTWARE/5. LISKOV/CleanTeeth/SOLIDPrinciples/obj/Debug/net10.0/SOLIDPrinciples.pdb
 /home/erickguerron/Documentos/Mint-Proyects/Mint-SOLID-SOFTWARE/5. LISKOV/CleanTeeth/SOLIDPrinciples/obj/Debug/net10.0/SOLIDPrinciples.genruntimeconfig.cache
 /home/erickguerron/Documentos/Mint-Proyects/Mint-SOLID-SOFTWARE/5. LISKOV/CleanTeeth/SOLIDPrinciples/obj/Debug/net10.0/ref/SOLIDPrinciples.dll
+/home/erickguerron/Documentos/Mint-Proyects/Mint-SOLID-SOFTWARE/5. LISKOV/CleanTeeth/SOLIDPrinciples/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.dll
+/home/erickguerron/Documentos/Mint-Proyects/Mint-SOLID-SOFTWARE/5. LISKOV/CleanTeeth/SOLIDPrinciples/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll

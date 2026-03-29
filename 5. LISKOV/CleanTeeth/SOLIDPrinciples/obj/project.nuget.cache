@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Fwd380AoZvE=",
+  "dgSpecHash": "8U2dNHgIdlU=",
   "success": true,
   "projectFilePath": "/home/erickguerron/Documentos/Mint-Proyects/Mint-SOLID-SOFTWARE/5. LISKOV/CleanTeeth/SOLIDPrinciples/SOLIDPrinciples.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/erickguerron/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.5/microsoft.extensions.dependencyinjection.10.0.5.nupkg.sha512",
+    "/home/erickguerron/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.5/microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

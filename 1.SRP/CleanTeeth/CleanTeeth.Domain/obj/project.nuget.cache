@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xtpoFzgo7hQ=",
+  "dgSpecHash": "FJjvBx7JRjk=",
   "success": true,
-  "projectFilePath": "E:\\Patrones de Software\\SOLID\\SOLID-SOFTWARE\\1.SRP\\CleanTeeth\\CleanTeeth.Domain\\CleanTeeth.Domain.csproj",
+  "projectFilePath": "/home/erickguerron/Documentos/Mint-Proyects/Mint-SOLID-SOFTWARE/1.SRP/CleanTeeth/CleanTeeth.Domain/CleanTeeth.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

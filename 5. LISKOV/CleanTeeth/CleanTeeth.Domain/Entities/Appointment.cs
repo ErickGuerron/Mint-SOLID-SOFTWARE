@@ -48,21 +48,21 @@ public class Appointment : Entity<AppointmentId>
 
     public void Cancel()
     {
-        if (Status != AppointmentStatus.Scheduled)
-        {
-            throw new BusinessRuleException($"Solo se puede cancelar una cita programada");
-        }
-
+        EnsureIsScheduled("cancelar");
         Status = AppointmentStatus.Cancelled;
     }
 
     public void Complete()
     {
+        EnsureIsScheduled("completada");
+        Status = AppointmentStatus.Completed;
+    }
+
+    private void EnsureIsScheduled(string action)
+    {
         if (Status != AppointmentStatus.Scheduled)
         {
-            throw new BusinessRuleException($"Solo puede ser completada una cita programada ");
+            throw new BusinessRuleException($"Solo se puede {action} una cita programada");
         }
-
-        Status = AppointmentStatus.Completed;
     }
 }

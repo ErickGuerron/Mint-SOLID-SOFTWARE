@@ -5,7 +5,9 @@ using System.Text;
 
 namespace SOLIDPrinciples.Infrastructure.Notifications.Messaging;
 
+using CleanTeeth.Domain.Interfaces;
+
 public interface IMessagingService
 {
-    void Send(Patient patient);
+    void Send(IPerson person);
 }

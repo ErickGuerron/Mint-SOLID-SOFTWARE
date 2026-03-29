@@ -5,7 +5,9 @@ using System.Text;
 
 namespace SOLIDPrinciples.Application.Interfaces;
 
+using CleanTeeth.Domain.Interfaces;
+
 public interface INotifactionService
 {
-    void Send(Patient patient, string message);
+    void Send(IPerson person, string message);
 }

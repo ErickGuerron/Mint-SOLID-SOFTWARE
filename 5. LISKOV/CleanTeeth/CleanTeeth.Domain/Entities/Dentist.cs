@@ -3,28 +3,13 @@ using CleanTeeth.Domain.ValueObjects;
 
 namespace CleanTeeth.Domain.Entities;
 
-public class Dentist
+public class Dentist : Person<DentistId>
 {
-    public Guid Id { get; private set; }
-    public string Name { get; private set; } = null!;
-    public Email Email { get; private set; } = null!;
+    private Dentist() : base() { }
 
-    public Dentist(string name, Email email)
+    public Dentist(DentistId id, Name name, Email email, PhoneNumber phoneNumber)
+        : base(id, name, email, phoneNumber)
     {
-        if (string.IsNullOrWhiteSpace(name))
-        {
-            throw new BusinessRuleException($"El {nameof(name)} es requerido");
-        }
-
-        if (email is null)
-        {
-            throw new BusinessRuleException($"El {nameof(email)} es requerido");
-        }
-
-        Name = name;
-        Email = email;
-        Id = Guid.CreateVersion7();
     }
-
 }
 

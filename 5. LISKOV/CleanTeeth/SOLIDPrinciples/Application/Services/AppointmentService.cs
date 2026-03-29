@@ -81,7 +81,7 @@ public class AppointmentService
     //    Console.WriteLine("Cita programada con éxito.");
     //}
 
-    public void Schedule(Appointment appointment, Patient patient)
+    public void Schedule<TId>(Appointment appointment, Person<TId> person) where TId : notnull
     {
         Console.WriteLine("Programar cita...");
 
@@ -103,17 +103,10 @@ public class AppointmentService
         // GUARDAR EN ARCHIVO
         _repository.Save(appointment);
 
-        //// ENVIAR CORREO ELECTRÓNICO AL PACIENTE        
-        //_emailService.Send(patientEmail);
-        //_msService.Send(patient);
-
-        ////ENVIAR EL MENSAJE POR WHATSAPP
-        //_messagingService.Send(patient);
-
         //Enviar LA/LAS Notificaciones 
         foreach (var notification in _notifications)
         {
-            notification.Send(patient, "Cita programada");
+            notification.Send(person, "Cita programada");
         }
 
         // VISUALIZAR MENSAJE DE CONFIRMACIÓN

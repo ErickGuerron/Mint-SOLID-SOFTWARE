@@ -5,6 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+using CleanTeeth.Domain.Interfaces;
+
 namespace SOLIDPrinciples.Infrastructure.Notifications.Adapters;
 
 internal class SmsNotificationService : INotifactionService
@@ -14,8 +16,8 @@ internal class SmsNotificationService : INotifactionService
     {
         _smsService = smsService;
     }
-    public void Send(Patient patient, string message)
+    public void Send(IPerson person, string message)
     {
-        _smsService.Send(patient);
+        _smsService.Send(person);
     }
 }

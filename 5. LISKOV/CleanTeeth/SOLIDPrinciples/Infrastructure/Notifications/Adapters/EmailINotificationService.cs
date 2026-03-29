@@ -7,6 +7,8 @@ using System.Text;
 
 namespace SOLIDPrinciples.Infrastructure.Notifications.Adapters;
 
+using CleanTeeth.Domain.Interfaces;
+
 public class EmailINotificationService : INotifactionService
 {
     private readonly IEmailService _emailService;
@@ -17,8 +19,8 @@ public class EmailINotificationService : INotifactionService
         _emailService = emailService;
     }
 
-    public void Send(Patient patient, string message)
+    public void Send(IPerson person, string message)
     {
-        _emailService.Send(patient.Email);
+        _emailService.Send(person.Email);
     }
 }

@@ -7,11 +7,13 @@ using System.Text;
 
 namespace SOLIDPrinciples.Infrastructure.Notifications.Adapters;
 
+using CleanTeeth.Domain.Interfaces;
+
 public class MessagingNotificationService : INotifactionService
 {
     private readonly IMessagingService _messagingService;
-    public void Send(Patient patient, string message)
+    public void Send(IPerson person, string message)
     {
-        _messagingService.Send(patient);
+        _messagingService.Send(person);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using CleanTeeth.Domain.Exceptions;
+using System.Text.RegularExpressions;
 
 namespace CleanTeeth.Domain.ValueObjects;
 
@@ -13,11 +14,12 @@ public record Email
             throw new BusinessRuleException($"El {nameof(email)} es requerido");
         }
 
-        if (!email.Contains("@"))
+        var cleaned = email.Trim();
+        if (!Regex.IsMatch(cleaned, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
         {
             throw new BusinessRuleException($"El {nameof(email)} no es válido");
         }
 
-        Value = email;
+        Value = cleaned;
     }
 }
